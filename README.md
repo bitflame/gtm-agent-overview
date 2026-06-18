@@ -1,4 +1,5 @@
-An AI-powered agentic application that assists users with company research, prospect analysis, and outreach generation using LLM orchestration, prompt engineering, and cloud-native deployment practices.
+An AI-powered agentic application that assists users with company research, prospect analysis, and personalized outreach generation using LangChain, Llama 3, and Groq.
+
 
 
 ## Source Code Availability
