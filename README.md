@@ -1,4 +1,5 @@
-An AI powered GTM agent that helps users research companies, and send outreach emails. 
+An AI-powered agentic application that assists users with company research, prospect analysis, and outreach generation using LLM orchestration, prompt engineering, and cloud-native deployment practices.
+
 
 ## Source Code Availability
 
