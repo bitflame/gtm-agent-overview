@@ -19,7 +19,7 @@ Architecture diagram:
 
 
 Architecture Overview  
-The GTM Agent is a Agent-based architecture leveraging Django‑based REST API that orchestrates multiple LLM providers (Groq, OpenAI, Anthropic) via a LangChain agent. Requests from clients are routed through /api/v1/agent/chat, where prompts are constructed, models are selected (including A/B testing setups), and conversations are tracked in NeonDB (Postgres). A Go sidecar microservice handles specialized preprocessing and analytics tasks. Here is the information flow: 
+The GTM Agent is a Agent-based architecture leveraging Django‑based REST API that orchestrates multiple LLM providers (Groq-Llama 3.x, Groq-DeepSeek, Groq-Qwen, Groq-Gemma, Groq Mistral) via a LangChain agent. Requests from clients are routed through /api/v1/agent/chat, where prompts are constructed, models are selected (including A/B testing setups), and conversations are tracked in NeonDB (Postgres). A Go sidecar microservice handles specialized preprocessing and analytics tasks. Here is the information flow: 
 User -> Django UI -> Agent Controller -> Prompt Builder -> Groq (Llama) -> Response processing -> UI Rendering
 
 ## Observability
