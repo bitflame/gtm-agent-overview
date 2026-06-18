@@ -7,7 +7,22 @@ This repository provides an overview of the architecture, deployment, and capabi
 
 The full source code is intentionally private. The project incorporates proprietary work related to agent orchestration, prompt engineering, deployment, and observability that I use as part of my professional portfolio.
 
-I am happy to discuss the implementation details, design decisions, and architecture with hiring managers, recruiters, and interview teams upon request. The following tools, technologies, and platforms were leveraged for this solution: Python, Django, LangChain, Groq, Llama 3, Railway, Go, Prometeus, and Grafana. The project uses LangChain to orchestrate interactions with Llama models hosted on Groq, enabling low-latency responses while maintaining a flexible agent architecture.
+I am happy to discuss the implementation details, design decisions, and architecture with hiring managers, recruiters, and interview teams upon request.
+
+The following technologies and platforms were used to build this solution:
+
+* Python
+* Django
+* LangChain
+* Groq
+* Llama 3
+* Railway
+* Go
+* Prometheus
+* Grafana
+
+The project uses LangChain to orchestrate interactions with Llama 3 models hosted on Groq, enabling low-latency responses while maintaining a flexible agent-based architecture. The solution combines AI orchestration, cloud-native deployment, and observability practices to provide a production-oriented learning environment for agentic AI development.
+
 
 </> Markdown
 ## Demo link:
