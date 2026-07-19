@@ -76,9 +76,10 @@ In production, the system is deployed on Railway with built‑in logging. For de
 
 ## Challenges and Lessons Learned: 
 
-A systematic evaluation pipeline, and process with metrics that are mapped to business outcomes and requirements is crucial. 
-Crucial to avoiding extra cost, and arriving at a solution that works for the organization. 
-The right level of prompt engineering will provide the results needed often, and if not then perhaps fine-tuning methods. 
-Context management, and conversation memory can save on the number of tokens used. 
-RAG solutions can address accuracy concerns when other methods such as Response validation fail. 
+A systematic evaluation pipeline and process, with metrics mapped to business outcomes and requirements, is crucial to avoiding extra cost and arriving at a solution that works for the organization.
 
+The right level of prompt engineering will often provide the results needed — and if not, fine-tuning may be the next step.
+
+Context management and conversation memory can reduce token usage significantly.
+
+RAG can address accuracy concerns when methods like response validation fall short.
