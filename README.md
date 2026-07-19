@@ -75,6 +75,7 @@ In production, the system is deployed on Railway with built‑in logging. For de
 <img width="1805" height="991" alt="Screenshot From 2026-06-18 09-44-37" src="https://github.com/user-attachments/assets/95a95ce0-f8e6-4d10-9020-9c6f29b99a07" />
 
 ## Challenges and Lessons Learned: 
+
 A systematic evaluation pipeline, and process with metrics that are mapped to business outcomes and requirements is crucial. 
 Crucial to avoiding extra cost, and arriving at a solution that works for the organization. 
 The right level of prompt engineering will provide the results needed often, and if not then perhaps fine-tuning methods. 
